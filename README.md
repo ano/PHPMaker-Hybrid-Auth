@@ -7,12 +7,16 @@ Based on the following tutorial
 https://hasin.me/2014/02/10/integrate-social-sign-on-in-your-php-apps-using-hybridauth/
 
 #Manual Setup
-Click on a table, in the Code(Server Events, Client Scripts and Custom Templates) tab, add this to the 
-function Page_DataRendering(&$header)
+1. Create a new PHPMaker Project
+2. Click on a table, in the Code(Server Events, Client Scripts and Custom Templates) tab, add this to the 
+function Page_DataRendering
 ```php
 // Page Data Rendering event
 function Page_DataRendering(&$header) {
-	// Source: http://tech.yeesiang.com/social-login-button-with-font-awesome-bootstrap/
+	/* 
+		Description: Adds a login button to the login screen
+		Source: http://tech.yeesiang.com/social-login-button-with-font-awesome-bootstrap/
+	*/
 	$header = '
 				<div class="row form-horizontal ewForm ewLoginForm">
 				   		<div class="col-sm-offset-2 col-sm-10">
@@ -29,8 +33,8 @@ function Page_DataRendering(&$header) {
 }
  ```
  
- Create 3 custom files in PHPMaker
+3. Create 3 custom files in PHPMaker
 
- 1. hybrid.php
- 2. google.php
- 3. composer.json
+ a. hybrid.php
+ b. google.php
+ c. composer.json
