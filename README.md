@@ -35,6 +35,6 @@ function Page_DataRendering(&$header) {
  
 3. Create 3 custom files in PHPMaker
 
- a. hybrid.php
- b. google.php
- c. composer.json
+ - hybrid.php
+ - google.php
+ - composer.json
