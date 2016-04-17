@@ -31,7 +31,6 @@ function Page_DataRendering(&$header) {
 			  ';
 }
  ```
- 
 3. Create 3 custom files in PHPMaker
 
  - hybrid.php
