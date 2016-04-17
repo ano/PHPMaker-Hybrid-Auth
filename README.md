@@ -9,7 +9,7 @@ https://hasin.me/2014/02/10/integrate-social-sign-on-in-your-php-apps-using-hybr
 #Manual Setup
 Click on a table, in the Code(Server Events, Client Scripts and Custom Templates) tab, add this to the 
 function Page_DataRendering(&$header)
-```
+```php
 // Page Data Rendering event
 function Page_DataRendering(&$header) {
 	// Source: http://tech.yeesiang.com/social-login-button-with-font-awesome-bootstrap/
