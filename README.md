@@ -8,8 +8,7 @@ https://hasin.me/2014/02/10/integrate-social-sign-on-in-your-php-apps-using-hybr
 
 #Manual Setup
 1. Create a new PHPMaker Project
-2. Click on a table, in the Code(Server Events, Client Scripts and Custom Templates) tab, add this to the 
-function Page_DataRendering
+2. Click on a table, in the Code(Server Events, Client Scripts and Custom Templates) tab, add this to the function Page_DataRendering
 ```php
 // Page Data Rendering event
 function Page_DataRendering(&$header) {
